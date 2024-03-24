@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+#facebook-form {
+    margin: auto;
+    width: 400px;
+}
+
+#facebook-form form {
+    color: #1c1e21;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 40px 0 0;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+#facebook-form input {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #dddfe2;
+    height: 52px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    font-family: inherit;
+    background: #e8f0fe;
+}
+
+#facebook-form input:focus {
+    outline: none !important;
+    border:1px solid #0866ff;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+#inputButton {
+    background-color: #0866ff;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 0;
+    width: 330px;
+    margin: 10px auto;
+}
+
+#createButton {
+    background-color: #42b72a;
+    font-size: 17px;
+    line-height: 48px;
+    width: 150px;
+    margin: 20px auto 0 auto;
+}
+
+#forget {
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0866ff;
+}
+
+#forget:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    direction: ltr;
+    line-height: 1.34;
+    margin-top: 28px;
+    text-align: center;
+    border-top: none;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+
+}
+
+#footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
